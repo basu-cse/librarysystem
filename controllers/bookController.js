@@ -1,4 +1,4 @@
-const booksController = {
+const bookController = {
     getAllBooks(req, res) {
       // Logic to fetch all books from the library
       res.send('Get all books');
@@ -36,5 +36,5 @@ const booksController = {
     },
 };
   
-  module.exports = booksController;
+  module.exports = bookController;
   
